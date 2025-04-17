@@ -1,11 +1,18 @@
-export const colors: Array<string> = ["#ffffff", "#ffbf3f", "#52b963", "#4287f5", "#b069d1"]
+export const colors: Array<string> = ["#1f64f7", "#ffbf3f", "#52b963", "#4287f5", "#b069d1"]
 
-export const botUserData: Array<Record<string, string>> = [
-    {date: "4/1", botA: "11", botB: "25", botC: "19"}, 
-    {date: "4/2", botA: "16", botB: "23", botC: "32"},
-    {date: "4/3", botA: "18", botB: "22", botC: "33"},
-    {date: "4/4", botA: "18", botB: "29", botC: "25"},
-    {date: "4/5", botA: "22", botB: "15", botC: "43"},
+interface BotUser{
+  date: string;
+  botA: number;
+  botB: number;
+  botC: number;
+}
+
+export const botUserData: BotUser[] = [
+    {date: "4/1", botA: 11, botB: 25, botC: 19}, 
+    {date: "4/2", botA: 16, botB: 23, botC: 32},
+    {date: "4/3", botA: 18, botB: 22, botC: 33},
+    {date: "4/4", botA: 18, botB: 29, botC: 25},
+    {date: "4/5", botA: 22, botB: 15, botC: 43},
 ] 
 
 export const botTokenData = [

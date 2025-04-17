@@ -4,7 +4,7 @@ import React from "react";
 import { LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, Area, ComposedChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { colors, botUserData, botTokenData, feedbackData, actionRatioData, botUserTokenData, changedFeedbackName } from "../types/base";
 
-export default function SimpleBarChart() {  
+export default function ReChart() {  
     const botkeys = Object.keys(botUserData[0]).filter(x => x !== "date");
     const feedbackKeys = Object.keys(feedbackData[0]).filter(x => x!== "bot");
 
