@@ -1,6 +1,6 @@
 export const colors: Array<string> = ["#1f64f7", "#ffbf3f", "#52b963", "#4287f5", "#b069d1"]
 
-interface BotUser{
+export interface BotUser{
   date: string;
   botA: number;
   botB: number;
