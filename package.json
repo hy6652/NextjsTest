@@ -11,6 +11,9 @@
   "dependencies": {
     "@carbon/icons-react": "^11.58.0",
     "@carbon/react": "^1.80.0",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "axios": "^1.8.4",
     "chart.js": "^4.4.9",
     "next": "15.3.0",
